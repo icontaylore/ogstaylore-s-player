@@ -1,0 +1,50 @@
+@media only screen
+and (min-device-width: 793px)
+and (max-device-width: 1920px) {
+  /* Здесь задаем стили для браузеров, чья минимальная ширина - 320px, максимальная - 480px. Далее - по аналогии. */
+  #logim2 {
+    position: absolute;
+  top: 0;
+  left: 27%;
+  right: 0;
+  bottom: 0;
+  background-image: url("../assets/icons/obl.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 0;
+  pointer-events: none;
+  }
+  #niggahead{
+    visibility: hidden;
+
+  }
+}
+@media only screen
+and (min-device-width: 419px)
+and (max-device-width: 792px) {
+  #niggahead{
+    color: white;
+
+  }
+}
+
+
+@media only screen
+and (min-device-width: 200px)
+and (max-device-width: 436px) {
+  #niggahead{
+    color: black;
+    transform: translateY(19%);
+
+  }
+}
+
+@media only screen
+and (min-device-width: 200px)
+and (max-device-width: 422px) {
+  #niggahead{
+    color: black;
+    transform: translateY(-4%);
+
+  }
+}
